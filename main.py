@@ -19,10 +19,9 @@ def clear_submit():
     st.session_state["submit"] = False
 
 
-st.set_page_config(page_title="KnowledgeGPT", page_icon="📖", layout="wide")
-st.header("📖KnowledgeGPT")
+st.set_page_config(page_title="chat with Ur doc", page_icon="📖", layout="wide")
+st.header("chat with Ur doc")
 
-sidebar()
 
 uploaded_file = st.file_uploader(
     "Upload a pdf, docx, or txt file",
