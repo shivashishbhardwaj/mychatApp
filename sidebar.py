@@ -1,6 +1,6 @@
 import streamlit as st
 
-from knowledge_gpt.components.faq import faq
+import faq
 
 
 def set_openai_api_key(api_key: str):
