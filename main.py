@@ -56,7 +56,11 @@ def sidebar():
         st.markdown("---")
 
         faq()
+st.set_page_config(page_title="Chat with your Doc", page_icon="📖", layout="wide")
+st.header("📖 My ChatApp")
 
+sidebar()
+        
 uploaded_file = st.file_uploader(
     "Upload a pdf, docx, or txt file",
     type=["pdf", "docx", "txt"],
