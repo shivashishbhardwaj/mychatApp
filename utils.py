@@ -13,7 +13,7 @@ from langchain.vectorstores.faiss import FAISS
 from openai.error import AuthenticationError
 from pypdf import PdfReader
 
-from import OpenAIEmbeddings
+from Embeddings import OpenAIEmbeddings
 from prompts import STUFF_PROMPT
 
 
