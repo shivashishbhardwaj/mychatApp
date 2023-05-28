@@ -1,8 +1,8 @@
 import streamlit as st
 from openai.error import OpenAIError
 
-from knowledge_gpt.components.sidebar import sidebar
-from knowledge_gpt.utils import (
+import sidebar
+from utils import (
     embed_docs,
     get_answer,
     get_sources,
