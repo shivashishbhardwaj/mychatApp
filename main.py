@@ -17,6 +17,9 @@ from utils import (
 
 def set_openai_api_key(api_key: str):
     st.session_state["OPENAI_API_KEY"] = api_key
+    
+def clear_submit():
+    st.session_state["submit"] = False
 
 
 def sidebar():
